@@ -1,0 +1,49 @@
+{
+  "name": "Kshitij Shingare",
+  "title": "Full Stack Developer — Web Applications & AI Integration",
+  "email": "kshitijshingare49@gmail.com",
+  "github": "kshitij-shingare",
+  "linkedin": "kshitij-shingare",
+  "location": "India",
+  "summary": "Information Technology undergraduate with hands-on experience building full-stack web applications. Passionate about creating modern, scalable solutions using cutting-edge technologies. Skilled in React.js, Node.js, Express.js, and database management. Enthusiastic about AI integration and delivering seamless user experiences.",
+  "skills": {
+    "Frontend": ["React.js", "HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Bootstrap"],
+    "Backend": ["Node.js", "Express.js", "REST APIs"],
+    "Database": ["MongoDB", "MySQL", "Firebase"],
+    "Tools": ["Git", "GitHub", "VS Code", "Postman", "Docker"],
+    "Other": ["Data Structures", "Problem Solving", "Agile", "CI/CD"]
+  },
+  "experience": [
+    {
+      "company": "Agrokalp Solutions",
+      "role": "Full Stack Developer Engineer",
+      "duration": "3.5 Months",
+      "highlights": [
+        "Developed and maintained full-stack web applications using React.js and Node.js",
+        "Integrated RESTful APIs to streamline data flow between frontend and backend",
+        "Collaborated with cross-functional teams to deliver features on schedule",
+        "Optimized application performance and improved page load times by 40%"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.E. in Information Technology",
+      "institution": "University of Mumbai",
+      "year": "2023 – 2027",
+      "gpa": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "Interactive Resume Website",
+      "description": "A modern, responsive personal resume website with dark/light theme toggle and GitHub contribution graph.",
+      "tech": ["HTML5", "CSS3", "JavaScript"]
+    },
+    {
+      "name": "Full Stack Web Application",
+      "description": "Built a scalable web application with user authentication, CRUD operations, and real-time data sync.",
+      "tech": ["React.js", "Node.js", "MongoDB", "Express.js"]
+    }
+  ]
+}

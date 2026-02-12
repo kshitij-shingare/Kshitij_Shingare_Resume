@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kshitij Shingare | Interactive Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Floating Theme Toggle -->
+  <button id="themeToggle" title="Toggle Theme">
+    <i class="fas fa-moon"></i>
+  </button>
+
+  <!-- Hero / Intro -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="avatar-ring">
+        <div class="avatar-placeholder" id="avatarInitials"></div>
+      </div>
+      <h1 id="name" class="glitch-text"></h1>
+      <p id="title" class="subtitle"></p>
+      <div class="hero-links" id="heroLinks"></div>
+      <a href="#resume" class="scroll-indicator">
+        <span>View Resume</span>
+        <i class="fas fa-chevron-down bounce"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Main Resume Container (centered) -->
+  <main id="resume" class="resume-container">
+
+    <!-- Summary -->
+    <section class="card fade-in" id="summary">
+      <h2><i class="fas fa-user"></i> About Me</h2>
+      <p id="summaryText"></p>
+    </section>
+
+    <!-- Skills -->
+    <section class="card fade-in" id="skills">
+      <h2><i class="fas fa-code"></i> Skills</h2>
+      <div id="skillsGrid" class="skills-grid"></div>
+    </section>
+
+    <!-- Experience -->
+    <section class="card fade-in" id="experience">
+      <h2><i class="fas fa-briefcase"></i> Experience</h2>
+      <div id="experienceList"></div>
+    </section>
+
+    <!-- Education -->
+    <section class="card fade-in" id="education">
+      <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+      <div id="educationList"></div>
+    </section>
+
+    <!-- Projects -->
+    <section class="card fade-in" id="projects">
+      <h2><i class="fas fa-rocket"></i> Projects</h2>
+      <div id="projectsList" class="projects-grid"></div>
+    </section>
+
+    <!-- GitHub Contribution Graph -->
+    <section class="card fade-in" id="githubSection">
+      <h2><i class="fab fa-github"></i> GitHub Contributions</h2>
+      <div class="github-graph-wrapper">
+        <div id="githubGraph" class="github-graph"></div>
+        <div class="github-legend">
+          <span>Less</span>
+          <div class="legend-box" style="background: var(--gh-0)"></div>
+          <div class="legend-box" style="background: var(--gh-1)"></div>
+          <div class="legend-box" style="background: var(--gh-2)"></div>
+          <div class="legend-box" style="background: var(--gh-3)"></div>
+          <div class="legend-box" style="background: var(--gh-4)"></div>
+          <span>More</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer with Download -->
+  <footer id="footer">
+    <div class="footer-content">
+      <a href="resume.pdf" download class="download-btn">
+        <i class="fas fa-download"></i> Download Resume (PDF)
+      </a>
+      <div class="footer-links" id="footerLinks"></div>
+      <p class="footer-copy">&copy; 2026 Kshitij Shingare. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
